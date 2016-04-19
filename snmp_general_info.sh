@@ -8,9 +8,6 @@
 # Add as a check in Op5/Nagios                                                #
 # The check will always return OK.                                            #
 #                                                                             #
-# 2014-10-23  Fixed a bug with Nexus serial.                                  #
-# 2014-10-14  Added section for Cisco WS-6500, and handling of SNMP error.    #
-#                                                                             #
 ###############################################################################
 
 #set -x
