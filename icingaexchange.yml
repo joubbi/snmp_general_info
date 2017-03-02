@@ -13,6 +13,6 @@ releases:
     files: 
       - 
         name: snmp_general_info.sh 
-        url: "https://gitlab.com/faridj/snmp_general_info/blob/master/snmp_general_info.sh"
+        url: "https://gitlab.com/faridj/snmp_general_info/raw/master/snmp_general_info.sh"
         description: "First public release"
         checksum: 343d259a1b2159769cd52dd2616f2e90 
