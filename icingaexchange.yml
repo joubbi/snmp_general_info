@@ -1,4 +1,4 @@
-name: snmp_general_info.sh
+name: snmp_general_info
 description: "file:///README.md"
 url: "https://gitlab.com/faridj/snmp_general_info.git"
 tags: information
