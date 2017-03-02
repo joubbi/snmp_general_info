@@ -1,0 +1,18 @@
+name: snmp_general_info.sh
+description: "file:///README.md"
+url: "https://gitlab.com/faridj/snmp_general_info.git"
+tags: information
+vendor: Any
+target: Snmp
+type: Plugin
+license: Apache v2
+releases: 
+  - 
+    name: 1.0
+    description: "1.0 Release"
+    files: 
+      - 
+        name: snmp_general_info.sh 
+        url: "https://gitlab.com/faridj/snmp_general_info/blob/master/snmp_general_info.sh"
+        description: "First public release"
+        checksum: 343d259a1b2159769cd52dd2616f2e90 

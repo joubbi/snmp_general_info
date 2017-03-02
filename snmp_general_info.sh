@@ -2,7 +2,8 @@
 ###############################################################################
 #                                                                             #
 # A script for getting information from hosts with SNMP                       #
-# Written by Farid Joubbi @consign.se 2014-04-16                              #
+# This is a more generic version of https://gitlab.com/faridj/snmp_cisco_info #
+# Written by farid@joubbi.se 2014-04-16                                       #
 #                                                                             #
 # USAGE:                                                                      #
 # Add as a check in Op5/Nagios                                                #
@@ -10,8 +11,6 @@
 #                                                                             #
 ###############################################################################
 
-#set -x
-#set -v
 
 if [ $# == 5 ]; then
   SNMPOPT="-v 3 -a $2 -A $3 -l authPriv -u op5 -x $4 -X $5 $1 -Ov -t 0.5 -Lo"
